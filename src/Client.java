@@ -34,7 +34,7 @@ public class Client {
             PrintWriter printWriter = new PrintWriter(outputStream);
             printWriter.print("CIAO");
         } catch (IOException e) {
-            //
+            e.printStackTrace();
         }
     }
 
